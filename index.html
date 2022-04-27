@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <noscript>You have to enable JavaScript to view the full site</noscript>
+    <link rel="shortcut icon" href="Designbolts-Valentine-Rose-flower.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mary Kay Sign In</title>
+</head>
+<body>
+    <main class="container">
+        <div class="imagens">
+            <img id="mary" src="mary-kay-logo-png-0 (1) - Copy.png" alt="Logo da Marca">
+            <br>
+            <img id="face" src="face (1) (1).png" alt="Aplicativo face">
+            <p id="facetexto">Use Facebook</p>
+            <img id="gmail" src="gmail (1) (1).png" alt="Aplicativo gmail">
+            <p id="gmailtexto">Use Gmail</p>
+            </div>
+            <div>
+                <div class="retangle"></div>
+                <div class="retangle1"></div>
+                <p class="ou">ou</p>
+                <div class="line"></div>
+                <div class="line1"></div>
+            </div>
+            <div class="login">
+                <form action="#">
+                    <div class="inputfield">
+                        <h4>EMAIL</h4>
+                        <input type="email" name="email" id="email" placeholder="Insert here your email ">
+                    </div>
+                    <div class="underline"></div>
+                    <div class="inputfield">
+                        <h4>PASSWORD</h4>
+                        <input type="password" name="password" id="password" placeholder="Insert here your password">
+                    </div>
+                    <div class="underline1"></div>
+                    <label class="container3">Remember me
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <a class="forgot" href="#"><p>Forgot Password?</p></a>
+                </form>
+                    <div class="button">
+                        <label><input type="button" value="">Sign in with email</label>
+                    </div>
+            <button id="dark"></button>
+            </div>
+            </div>
+        </main>
+
+<script>
+    var dark = document.getElementById("dark");
+    dark.onclick = function() {
+        document.body.classList.toggle("dark-theme");
+    }
+</script>
+
+
+</body>
+</html>
